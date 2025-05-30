@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./Header.scss";
 import { LuMoon } from "react-icons/lu";
-import teste from "../../assets/CV-Bruno-Silveira-Dionisio.pdf"
+import CV from "../../../public/docs/CV-Bruno-Silveira-Dionisio.pdf"
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
