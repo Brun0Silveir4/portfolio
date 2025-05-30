@@ -16,7 +16,7 @@ export default function Header() {
   }, []);
 
   const onButtonClick = () => {
-    fetch(teste).then((response) => {
+    fetch(CV).then((response) => {
         response.blob().then((blob) => {
             const fileURL = window.URL.createObjectURL(blob);
             let alink = document.createElement("a");
