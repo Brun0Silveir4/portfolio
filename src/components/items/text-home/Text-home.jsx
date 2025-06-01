@@ -1,4 +1,4 @@
-import formalPhoto from "../../../public/images/foto-formal.jpg";
+import formalPhoto from "../../../../public/images/foto-formal.jpg";
 
 import { IoLocationOutline } from "react-icons/io5";
 import { FiGithub } from "react-icons/fi";
@@ -8,6 +8,8 @@ import "./Text-home.scss";
 
 export default function TextHome() {
   return (
+    <div className="intro">
+
     <div className="intro-content">
       <div className="text-content">
         <div className="name-bio">
@@ -43,6 +45,7 @@ export default function TextHome() {
         <div className="back-photo"></div>
         <img src={formalPhoto} alt="" className="main-photo" />
       </div>
+    </div>
     </div>
   );
 }

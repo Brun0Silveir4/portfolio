@@ -1,9 +1,8 @@
 import "./App.scss";
-import { useState, useEffect } from "react";
 
-import Header from "../../components/header/Header";
-import TextHome from "../../components/text-home/Text-home";
-
+import Header from "../../components/items/header/Header";
+import TextHome from "../../components/items/text-home/Text-home";
+import Technologies from "../../components/items/technologies/Technologies";
 
 
 export default function App() {
@@ -11,8 +10,9 @@ export default function App() {
     <div className="home-content">
       <Header />
       <div className="intro">
-      <TextHome />
+        <TextHome />
       </div>
+      <Technologies />
     </div>
   );
 }

@@ -1,0 +1,27 @@
+    .tech {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100px;
+      width: 130px;
+      padding: 8px;
+      border-radius: 8px;
+      transition: 0.3s ease;
+      gap: 8px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #1F2937;
+      }
+
+      img {
+        height: 47px;
+      }
+
+      p {
+        font-size: 18px;
+        text-align: center;
+        color: #D1D5DB;
+      }
+    }
