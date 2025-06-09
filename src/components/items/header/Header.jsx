@@ -39,7 +39,7 @@ export default function Header() {
           <Link to="/" className="link-css">
             <p className={pathname === "/" ? "active" : ""}>Home</p>
           </Link>
-          <Link to="/" className="link-css">
+          <Link to="/about" className="link-css">
             <p className={pathname === "/about" ? "active" : ""}>Sobre</p>
           </Link>
           <Link to="/" className="link-css">
