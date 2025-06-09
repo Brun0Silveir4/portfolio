@@ -18,7 +18,7 @@ export default function About() {
           <p>Sobre Mim</p>
         </div>
         <div className="main-content-about">
-          <div className="image" data-aos="fade-right" data-aos-duration="1200">
+          <div className="image" data-aos="fade-right" data-aos-duration="1100">
             <img src={foto} alt="" className="main-photo" />
           </div>
           <div className="intro-about">
