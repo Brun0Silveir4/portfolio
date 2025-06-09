@@ -31,6 +31,7 @@ export default function Header() {
     <div className={`header ${isScrolled ? "transparent" : ""}`}>
       <div className="header-items">
         <div className="navigate">
+          <p>Home</p>
           <p>Sobre</p>
           <p>Projetos</p>
           <p>Contato</p>
