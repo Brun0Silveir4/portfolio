@@ -1,6 +1,5 @@
 .tech {
-
-  a{
+  a {
     text-decoration: none;
     display: flex;
     flex-direction: column;
@@ -10,14 +9,16 @@
     width: 130px;
     padding: 8px;
     border-radius: 8px;
-    transition: 0.3s ease;
+    border: 1px solid transparent;
     gap: 8px;
     cursor: pointer;
+    transition: 0.3s ease;
 
-  }
 
-  &:hover {
-    background-color: #1f2937;
+    &:hover {
+      background-color: #1f2937;
+      border-radius: 8px;
+    }
   }
 
   img {
@@ -28,9 +29,5 @@
     font-size: 18px;
     text-align: center;
     color: #d1d5db;
-  }
-
-  .white-icon img {
-    filter: invert(1);
   }
 }
