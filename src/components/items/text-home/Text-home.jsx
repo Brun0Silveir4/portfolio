@@ -42,7 +42,6 @@ export default function TextHome() {
         </div>
       </div>
       <div className="image">
-        <div className="back-photo"></div>
         <img src={formalPhoto} alt="" className="main-photo" />
       </div>
     </div>
