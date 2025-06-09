@@ -1,24 +1,31 @@
 import Header from "../../components/items/header/Header";
 import "./About.scss";
 import foto from "../../../public/images/segunda-img-me.png";
+import AOS from "aos";
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 
 export default function About() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div className="about-container">
       <Header />
       <div className="infos">
-        <div className="title">
+        <div className="title" data-aos="fade-left" data-aos-duration="1000">
           <p>Sobre Mim</p>
         </div>
         <div className="main-content-about">
-          <div className="image">
+          <div className="image" data-aos="fade-right" data-aos-duration="1200">
             <img src={foto} alt="" className="main-photo" />
           </div>
           <div className="intro-about">
-            <div className="title-about">
+            <div className="title-about" data-aos="fade-left" data-aos-duration="1200">
               <p>Minha trajetória</p>
             </div>
-            <div className="text-about">
+            <div className="text-about" data-aos="fade-left" data-aos-duration="1300">
               <p>
                 Sou completamente apaixonado por tecnologia e em resolver
                 problemas com ela. Me especializei em desenvolvimento web (tendo

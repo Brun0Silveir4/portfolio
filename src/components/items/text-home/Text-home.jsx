@@ -1,17 +1,22 @@
 import formalPhoto from "../../../../public/images/foto-formal.jpg";
-
+import { useEffect } from "react";
 import { IoLocationOutline } from "react-icons/io5";
 import { FiGithub } from "react-icons/fi";
 import { TiSocialLinkedin } from "react-icons/ti";
-
+import AOS from "aos";
+import 'aos/dist/aos.css'
 import "./Text-home.scss";
 
 export default function TextHome() {
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="intro">
 
     <div className="intro-content">
-      <div className="text-content">
+      <div className="text-content" data-aos="fade-right" data-aos-duration="1100">
         <div className="name-bio">
           <div className="title">
             <p>Oi! Meu nome é Bruno!</p>
@@ -41,7 +46,7 @@ export default function TextHome() {
           </a>
         </div>
       </div>
-      <div className="image">
+      <div className="image" data-aos="fade-left" data-aos-duration="1100">
         <img src={formalPhoto} alt="" className="main-photo" />
       </div>
     </div>

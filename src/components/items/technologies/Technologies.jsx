@@ -4,15 +4,21 @@ import IbmCloudIcon from '../../../assets/ibm-cloud.svg';
 import codeEngine from "../../../assets/ibm-cloud--code-engine.svg";
 import DB2 from "../../../assets/ibm--db2.svg"
 import twillio from "../../../assets/twilio-icon.svg"
+import { useEffect } from "react";
+import AOS from "aos";
+import 'aos/dist/aos.css'
 
 
 export default function Technologies() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="technologies">
-      <div className="title">
+      <div className="title" data-aos="fade-down" data-aos-duration="1000">
         <p>Tecnologias</p>
       </div>
-      <div className="tech-group">
+      <div className="tech-group" data-aos="fade-right" data-aos-duration="1100">
         <Tech url={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"} text={"HTML 5"} doc={"https://developer.mozilla.org/en-US/docs/Glossary/HTML5"}/>
 
         <Tech url={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"} text={"CSS3"} doc={"https://developer.mozilla.org/pt-BR/docs/Web/CSS"}/>
