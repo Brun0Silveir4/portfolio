@@ -1,7 +1,10 @@
 import "./Technologies.scss";
 import Tech from "../../tech/Tech";
-import ibmCloud from "../../../../public/images/ibm-cloud.svg";
-import codeEngine from "../../../../public/images/ibm-cloud--code-engine.svg";
+import IbmCloudIcon from '../../../assets/ibm-cloud.svg';
+import codeEngine from "../../../assets/ibm-cloud--code-engine.svg";
+
+import {CloudAuditing} from "@carbon/icons-react"
+
 
 export default function Technologies() {
   return (
@@ -56,9 +59,9 @@ export default function Technologies() {
 
         <Tech url={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"} text={"Vite"}/>
 
-        <Tech url={ibmCloud} text={"IBM cloud"}/>
+        <Tech url={IbmCloudIcon} text={"IBM cloud"} style={{ filter: "invert(1)" }} />
 
-        <Tech url={codeEngine} text={"Code Engine"}/>
+        <Tech url={codeEngine} text={"Code Engine"} style={{ filter: "invert(1)" }}/>
 
       </div>
     </div>
