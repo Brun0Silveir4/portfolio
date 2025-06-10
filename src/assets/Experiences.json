@@ -1,9 +1,29 @@
 [
-    {
-        "company": "etec",
-        "experiences": [
-            "Minha história no ramo da tecnologia começou efetivamente no meu Ensino Médio Técnico, comigo passando no vestibulinho da etec no ano de 2019 e começando efetivamente no início de 2020.",
-            ""
-        ]
-    }
+  {
+    "company": "etec",
+    "experiences": [
+      "Minha história com tecnologia começou de fato no Ensino Médio Técnico, quando passei no vestibulinho da Etec em 2019 e iniciei os estudos no começo de 2020, me formando no final de 2022.",
+      "Foi na Etec que tive meus primeiros contatos com programação e me apaixonei ainda mais pela área. Mesmo com as dificuldades da pandemia, nunca deixei de estudar e aprofundar meus conhecimentos.",
+      "Durante esse período, participei de dois projetos importantes: uma verificação voluntária de arquivos CRUD escritos em PHP para o TRT, e o meu TCC.",
+      "Como já mencionado anteriormente, meu TCC consistia em uma aplicação desenvolvida em React Native para ajudar cada usuário a montar uma rotina de skincare personalizada. A construção dos cronogramas teve como base pesquisas em artigos e entrevistas com dermatologistas."
+    ]
+  },
+  {
+    "company": "fatec",
+    "experiences": [
+      "Após concluir o Ensino Médio, entrei direto na faculdade no início de 2023. Desde o Médio até o fim da graduação, participei da segunda turma do programa P-TECH AMS — uma parceria entre o Centro Paula Souza e a IBM.",
+      "O programa P-TECH oferecia formação técnica e superior integrada, capacitando jovens desde o Ensino Médio para o mercado de trabalho com foco em tecnologia.",
+      "Com o apoio do programa, me formei no final de 2024 pela Fatec da Zona Leste. Durante esse período, aprofundei ainda mais meus conhecimentos, especialmente na área de desenvolvimento web com React e Node.js.",
+      "O projeto mais marcante da faculdade foi o Projeto Integrador. Durante dois anos, minha turma desenvolveu uma aplicação para o Centro Paula Souza com foco em eventos: criacão e gerenciamento de eventos, criação e gerenciamento de artigos, submissão para aprovação, organização de salas de apresentação, geração de certificados e publicação dos anais com todos os artigos aprovados."
+    ]
+  },
+  {
+    "company": "ibm",
+    "experiences": [
+      "Minha primeira experiência no mercado de trabalho — e também na área de tecnologia — foi na IBM, onde entrei como estagiário em julho de 2023, ainda no primeiro ano da faculdade.",
+      "Atuei no setor de Client Engineering, responsável pela criação de MVPs para clientes em fase de pré-venda. O objetivo era demonstrar como as tecnologias da IBM poderiam resolver dores específicas de cada cliente.",
+      "Trabalhei em projetos para clientes muito relevantes, desde bancos até companhias elétricas. Durante o estágio, evoluí bastante tanto na parte técnica quanto no trabalho em equipe, aprimorando minha escrita de código, minha comunicação e meu senso colaborativo.",
+      "Desenvolvi interfaces, servidores/back-end e até chatbots interativos, sempre buscando atender as necessidades específicas de cada projeto em que atuei."
+    ]
+  }
 ]
