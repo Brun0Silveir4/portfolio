@@ -1,8 +1,8 @@
 import "./Card-exp.scss"
 
-export default function CardExp({image, company, time}){
+export default function CardExp({image, company, time, onClick}){
     return(
-        <div className="card-exp">
+        <div className="card-exp" onClick={onClick}>
         <div className="img-header-exp">
           <img src={image} alt="" className="image-card" />
         </div>
