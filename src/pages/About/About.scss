@@ -13,27 +13,20 @@
 
     .experiences-title {
       margin-top: 6rem;
-      
+
       p {
         font-size: 30px;
       }
     }
-    
+
     .card-exp-group {
       margin-top: 48px;
-      width: 65%;
-      display: flex;
-      flex-direction: column;
-      gap: 48px;
-      
-      .card-exp {
-        width: 100%;
-        height: 300px;
-        padding: 30px;
-        border-radius: 12px;
-        border: 1px solid transparent;
-        background-color: #1F2937;
-      }
+      width: 60%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2.5rem;
+      justify-items: center;
+      align-items: start;
     }
   }
 }
