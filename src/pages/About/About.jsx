@@ -20,7 +20,7 @@ export default function About() {
         <div className="card-exp-group">
           <CardExp image={logoIBM} company={"IBM"} time={"2023-atual"} />
           <CardExp image={logoFATEC} company={"Fatec da Zona Leste"} time={"2023-2024"} />
-          <CardExp image={logoETEC} company={"IBM"} time={"2023-atual"} />
+          <CardExp image={logoETEC} company={"Etec da Zona Leste"} time={"2020-2022"} />
         </div>
       </div>
     </div>
