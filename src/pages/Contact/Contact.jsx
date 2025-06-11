@@ -8,6 +8,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { FiGithub } from "react-icons/fi";
 import { TiSocialLinkedin } from "react-icons/ti";
+import Input from "../../components/input/input";
 
 export default function Contact() {
   const form = useRef();
@@ -99,58 +100,53 @@ export default function Contact() {
             <h2>Entre em contato por email!</h2>
 
             <div className="input-group">
-              <div className="input">
-                <label htmlFor="name">
-                  <p>Name</p>
-                </label>
-                <input
-                  type="text"
-                  name="name"
-                  id="name"
-                  value={name}
-                  onChange={(e) => setName(formatText(e.target.value))}
-                  required
-                />
-              </div>
+              <Input
+                htmlFor={"name"}
+                title={"Name"}
+                type={"text"}
+                name={"name"}
+                id={"name"}
+                value={name}
+                onChange={(e) => setName(formatText(e.target.value))}
+              />
 
-              <div className="input">
-                <label htmlFor="email">
-                  <p>Email</p>
-                </label>
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  required
-                />
-              </div>
+              <Input
+                htmlFor={"email"}
+                title={"Email"}
+                type={"text"}
+                name={"email"}
+                id={"email"}
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
 
-              <div className="input">
-                <label htmlFor="message">
-                  <p>Message</p>
-                </label>
-                <input
-                  type="text"
-                  name="message"
-                  id="message"
-                  value={message}
-                  onChange={(e) => setMessage(formatText(e.target.value))}
-                  required
-                />
-              </div>
+              <Input
+                htmlFor={"message"}
+                title={"Mensagem"}
+                type={"text"}
+                id={"message"}
+                value={message}
+                onChange={(e) => setMessage(formatText(e.target.value))}
+              />
             </div>
 
             <button type="submit">Send Message</button>
           </form>
         </div>
         <div className="contact-media">
-          <div className="media-title" data-aos="fade-left" data-aos-duration="1100">
+          <div
+            className="media-title"
+            data-aos="fade-left"
+            data-aos-duration="1100"
+          >
             <p>Ou me chame por uma de minhas outras redes!</p>
           </div>
 
-          <div className="media-links" data-aos="fade-left" data-aos-duration="1200">
+          <div
+            className="media-links"
+            data-aos="fade-left"
+            data-aos-duration="1200"
+          >
             <a href="https://github.com/Brun0Silveir4" target="_blank">
               <FiGithub className="git" />
             </a>
