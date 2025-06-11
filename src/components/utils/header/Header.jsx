@@ -42,8 +42,8 @@ export default function Header() {
           <Link to="/about" className="link-css">
             <p className={pathname.startsWith("/about") ? "active" : ""}>Sobre</p>
           </Link>
-          <Link to="/" className="link-css">
-            <p className={pathname === "/project" ? "active" : ""}>Projetos</p>
+          <Link to="/projects" className="link-css">
+            <p className={pathname === "/projects" ? "active" : ""}>Projetos</p>
           </Link>
           <Link to="/contact" className="link-css">
             <p className={pathname === "/contact" ? "active" : ""}>Contato</p>

@@ -1,0 +1,21 @@
+.projects-container {
+  min-width: 100vw;
+  min-height: 100vh;
+  color: white;
+
+  .projects-content {
+    min-height: 100vh;
+    background-color: #030712;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .projects-title {
+      margin-top: 6rem;
+      p {
+        font-size: 30px;
+        font-weight: 600;
+      }
+    }
+  }
+}
