@@ -6,6 +6,8 @@ import { toast, Bounce, Slide } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { FiGithub } from "react-icons/fi";
+import { TiSocialLinkedin } from "react-icons/ti";
 
 export default function Contact() {
   const form = useRef();
@@ -80,56 +82,86 @@ export default function Contact() {
   return (
     <div className="contact-container">
       <Header />
-      <div className="form-wrapper" data-aos="fade-down" data-aos-duration="1000">
-        <form ref={form} onSubmit={sendEmail} className="form-content">
-          <h2>Me envie uma mensagem!</h2>
+      <div className="contact-content">
+        <div
+          className="contact-title"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
+          <p>Me envie uma mensagem!</p>
+        </div>
+        <div
+          className="form-wrapper"
+          data-aos="fade-down"
+          data-aos-duration="1100"
+        >
+          <form ref={form} onSubmit={sendEmail} className="form-content">
+            <h2>Entre em contato por email!</h2>
 
-          <div className="input-group">
-            <div className="input">
-              <label htmlFor="name">
-                <p>Name</p>
-              </label>
-              <input
-                type="text"
-                name="name"
-                id="name"
-                value={name}
-                onChange={(e) => setName(formatText(e.target.value))}
-                required
-              />
+            <div className="input-group">
+              <div className="input">
+                <label htmlFor="name">
+                  <p>Name</p>
+                </label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  value={name}
+                  onChange={(e) => setName(formatText(e.target.value))}
+                  required
+                />
+              </div>
+
+              <div className="input">
+                <label htmlFor="email">
+                  <p>Email</p>
+                </label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                />
+              </div>
+
+              <div className="input">
+                <label htmlFor="message">
+                  <p>Message</p>
+                </label>
+                <input
+                  type="text"
+                  name="message"
+                  id="message"
+                  value={message}
+                  onChange={(e) => setMessage(formatText(e.target.value))}
+                  required
+                />
+              </div>
             </div>
 
-            <div className="input">
-              <label htmlFor="email">
-                <p>Email</p>
-              </label>
-              <input
-                type="email"
-                name="email"
-                id="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-              />
-            </div>
-
-            <div className="input">
-              <label htmlFor="message">
-                <p>Message</p>
-              </label>
-              <input
-                type="text"
-                name="message"
-                id="message"
-                value={message}
-                onChange={(e) => setMessage(formatText(e.target.value))}
-                required
-              />
-            </div>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+        <div className="contact-media">
+          <div className="media-title" data-aos="fade-left" data-aos-duration="1100">
+            <p>Ou me chame por uma de minhas outras redes!</p>
           </div>
 
-          <button type="submit">Send Message</button>
-        </form>
+          <div className="media-links" data-aos="fade-left" data-aos-duration="1200">
+            <a href="https://github.com/Brun0Silveir4" target="_blank">
+              <FiGithub className="git" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/bruno-silveira-dionisio/"
+              target="_blank"
+            >
+              <TiSocialLinkedin className="link" />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
