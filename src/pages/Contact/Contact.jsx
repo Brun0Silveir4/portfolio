@@ -1,13 +1,14 @@
 import "./Contact.scss";
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import Header from "../../components/utils/header/Header";
 import { toast, Bounce, Slide } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Contact() {
   const form = useRef();
-
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -72,10 +73,14 @@ export default function Contact() {
     return text.charAt(0).toUpperCase() + text.slice(1);
   };
 
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div className="contact-container">
       <Header />
-      <div className="form-wrapper">
+      <div className="form-wrapper" data-aos="fade-down" data-aos-duration="1000">
         <form ref={form} onSubmit={sendEmail} className="form-content">
           <h2>Me envie uma mensagem!</h2>
 
