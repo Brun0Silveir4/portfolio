@@ -4,6 +4,7 @@ import Home from "./pages/home/Home";
 import About from "./pages/About/About";
 import Specific from "./pages/specific-exp/Specific";
 import ScrollToTop from "./components/utils/scroll-to-top/ScrollToTop";
+import Contact from "./pages/Contact/Contact";
 
 function withScroll(Component) {
   return (
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: "/about/:experience",
     element: withScroll(Specific),
+  },
+  {
+    path: "/contact",
+    element: withScroll(Contact)
   },
   {
     path: "*",

@@ -45,7 +45,7 @@ export default function Header() {
           <Link to="/" className="link-css">
             <p className={pathname === "/project" ? "active" : ""}>Projetos</p>
           </Link>
-          <Link to="/" className="link-css">
+          <Link to="/contact" className="link-css">
             <p className={pathname === "/contact" ? "active" : ""}>Contato</p>
           </Link>
         </div>
