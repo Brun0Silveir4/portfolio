@@ -1,12 +1,56 @@
-# React + Vite
+# Porfólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o projeto do meu portfólio pessoal, desenvolvido com React e estilizado com Sass. A aplicação apresenta meus projetos, experiências e formas de contato de maneira interativa e responsiva, utilizando animações e recursos modernos de navegação.
 
-Currently, two official plugins are available:
+<br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- React
+- React Router DOM
+- React Toastify
+- Sass
+- AOS (Animate on Scroll)
+- EmailJS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<br>
+
+
+## 🧩 Funcionalidades
+
+- Apresentação de projetos (WIP)
+- Sessão de contato com envio de e-mail via formulário
+- Toasts de confirmação ao envio de email
+- Navegação entre seções usando React Router
+- Animações com AOS
+- Apresentação de experiências com descrições
+
+<br>
+
+## 🚀 Como Executar
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/Brun0Silveir4/portfolio
+cd portfolio
+```
+
+### 2. Instalar as dependências
+```bash
+npm install
+```
+
+### 3. Rode a aplicação
+```bash
+npm run dev 
+```
+
+<br>
+
+## 🙋‍♂️ Autor
+
+Desenvolvido por Bruno Silveira. Contato:  
+• [LinkedIn](https://www.linkedin.com/in/bruno-silveira-dionisio/)  
+• [GitHub](https://github.com/Brun0Silveir4)  
+• bruno.silveira.dionisio@gmail.com
