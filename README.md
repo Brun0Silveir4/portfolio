@@ -19,7 +19,7 @@ Este é o projeto do meu portfólio pessoal, desenvolvido com React e estilizado
 ## 🧩 Funcionalidades
 
 - Apresentação de projetos (WIP)
-- Sessão de contato com envio de e-mail via formulário
+- Seção de contato com envio de e-mail via formulário
 - Toasts de confirmação ao envio de email
 - Navegação entre seções usando React Router
 - Animações com AOS
