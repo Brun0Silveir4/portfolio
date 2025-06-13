@@ -9,12 +9,12 @@
 
   .contact-content {
     width: 100%;
-    padding-top: 10rem;
+    margin-top: 6rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
+    gap: 3rem;
     padding: 1rem;
     min-height: 100vh;
 
@@ -30,6 +30,7 @@
       gap: 0.5rem;
       align-items: center;
       justify-content: center;
+      margin-bottom: 6rem;
       .media-title p{
         font-size: 20px;
       }
