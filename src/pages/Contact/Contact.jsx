@@ -83,19 +83,15 @@ export default function Contact() {
   return (
     <div className="contact-container">
       <Header />
-      <div className="contact-content">
-        <div
-          className="contact-title"
-          data-aos="fade-down"
-          data-aos-duration="1000"
-        >
+      <div
+        className="contact-content"
+        data-aos="fade-down"
+        data-aos-duration="1000"
+      >
+        <div className="contact-title">
           <p>Me envie uma mensagem!</p>
         </div>
-        <div
-          className="form-wrapper"
-          data-aos="fade-down"
-          data-aos-duration="1100"
-        >
+        <div className="form-wrapper">
           <form ref={form} onSubmit={sendEmail} className="form-content">
             <h2>Entre em contato por email!</h2>
 
@@ -134,19 +130,11 @@ export default function Contact() {
           </form>
         </div>
         <div className="contact-media">
-          <div
-            className="media-title"
-            data-aos="fade-left"
-            data-aos-duration="1100"
-          >
+          <div className="media-title">
             <p>Ou me chame por uma de minhas outras redes!</p>
           </div>
 
-          <div
-            className="media-links"
-            data-aos="fade-left"
-            data-aos-duration="1200"
-          >
+          <div className="media-links">
             <a href="https://github.com/Brun0Silveir4" target="_blank">
               <FiGithub className="git" />
             </a>
