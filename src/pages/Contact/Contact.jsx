@@ -121,6 +121,7 @@ export default function Contact() {
                 title={"Mensagem"}
                 type={"text"}
                 id={"message"}
+                name={"message"}
                 value={message}
                 onChange={(e) => setMessage(formatText(e.target.value))}
               />
