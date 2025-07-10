@@ -1,11 +1,12 @@
 import formalPhoto from "../../../../public/images/foto-formal.jpg";
 import { useEffect } from "react";
-import { IoLocationOutline } from "react-icons/io5";
-import { FiGithub } from "react-icons/fi";
-import { TiSocialLinkedin } from "react-icons/ti";
 import AOS from "aos";
 import 'aos/dist/aos.css'
 import "./Text-home.scss";
+import { IoLocationOutline } from "react-icons/io5";
+import { FiGithub } from "react-icons/fi";
+import { TiSocialLinkedin } from "react-icons/ti";
+import { FaArrowDown } from "react-icons/fa6";
 
 export default function TextHome() {
 
@@ -49,6 +50,9 @@ export default function TextHome() {
       <div className="image" data-aos="fade-left" data-aos-duration="1100">
         <img src={formalPhoto} alt="" className="main-photo" />
       </div>
+    </div>
+    <div className="arrow-down">
+    <FaArrowDown size={20}/>
     </div>
     </div>
   );

@@ -5,6 +5,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+
+  .arrow-down{
+    position: absolute;
+    bottom: 16px;
+  }
   .intro-content {
     height: 400px;
     width: 90%;
