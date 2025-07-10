@@ -38,13 +38,6 @@ export default function Specific() {
             onClick={() => navigate("/about")}
           />
         </div>
-        <div
-          className="title-specific"
-          data-aos="fade-down"
-          data-aos-duration="1000"
-        >
-          <p>{exp.company.toUpperCase()}</p>
-        </div>
         <div className="main-content-specific">
           <div
             className="image-specific"
@@ -54,6 +47,7 @@ export default function Specific() {
             <img src={exp.url_image} alt="" className="img-card" />
           </div>
           <div className="resume" data-aos="fade-left" data-aos-duration="1300">
+            <div className="title-company"><p>{exp.company.toUpperCase()}</p></div>
             {exp.experiences.map((para, id) => (
               <p key={id}>{para}</p>
             ))}
