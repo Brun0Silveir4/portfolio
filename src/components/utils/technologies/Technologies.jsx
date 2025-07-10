@@ -37,11 +37,9 @@ export default function Technologies() {
         
         <Tech url={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg"} text={"Sass/Scss"} doc={"https://sass-lang.com"}/>
 
-        <Tech url={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg"} text={"Kotlin"} doc={"https://kotlinlang.org/docs/home.html#"}/>
-
         <Tech url={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"} text={"Node.js"} doc={"https://nodejs.org/docs/latest/api/"}/>
 
-        <Tech url={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"} text={"Express"} doc={"https://expressjs.com/pt-br/"}/>
+        <Tech url={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"} text={"Express"} style={{ filter: "invert(1)" }} doc={"https://expressjs.com/pt-br/"}/>
 
         <Tech url={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain.svg"} text={"Axios"} doc={"https://axios-http.com/ptbr/docs/intro"}/>
 
