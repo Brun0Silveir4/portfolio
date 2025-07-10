@@ -10,9 +10,6 @@ export default function AboutContent() {
 }, []);
   return (
     <div className="infos">
-      <div className="title" data-aos="fade-left" data-aos-duration="1000">
-        <p>Sobre Mim</p>
-      </div>
       <div className="main-content-about">
         <div className="image" data-aos="fade-right" data-aos-duration="1100">
           <img src={foto} alt="" className="main-photo" />
