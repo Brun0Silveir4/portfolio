@@ -51,7 +51,7 @@ export default function TextHome() {
         <img src={formalPhoto} alt="" className="main-photo" />
       </div>
     </div>
-    <div className="arrow-down">
+    <div className="arrow-down" data-aos="fade-down" data-aos-duration="1100">
     <FaArrowDown size={20}/>
     </div>
     </div>
