@@ -38,7 +38,7 @@ export default function Projects() {
     <div className="projects-container">
       <Header />
       <div className="projects-content">
-        <div className="projects-wrapper">
+        <div className="projects-wrapper" data-aos="fade-down" data-aos-duration="1000">
           {projectList.map((project, index) => (
             <Project
               key={index}
