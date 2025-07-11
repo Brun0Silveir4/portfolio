@@ -8,6 +8,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { FiGithub } from "react-icons/fi";
 import { TiSocialLinkedin } from "react-icons/ti";
+import { MdEmail } from "react-icons/md";
 import Input from "../../components/input/input";
 
 export default function Contact() {
@@ -89,7 +90,7 @@ export default function Contact() {
         data-aos-duration="1000"
       >
         <div className="contact-title">
-          <p>Me envie uma mensagem!</p>
+          <p>Entre em contato!</p>
         </div>
         <div className="form-wrapper">
           <form ref={form} onSubmit={sendEmail} className="form-content">
@@ -133,6 +134,13 @@ export default function Contact() {
         <div className="contact-media">
           <div className="media-title">
             <p>Ou me chame por uma de minhas outras redes!</p>
+          </div>
+
+          <div className="email">
+            <a href="mailto:bruno.silveira.dionisio@gmail.com">
+            <MdEmail size={20} />
+              <p>bruno.silveira.dionisio@gmail.com</p>
+            </a>
           </div>
 
           <div className="media-links">
