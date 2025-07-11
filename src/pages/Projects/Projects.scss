@@ -1,21 +1,26 @@
 .projects-container {
-  min-width: 100vw;
+  min-width: 100%;
   min-height: 100vh;
   color: white;
+  background-color: #030712;
+  display: flex;
+  justify-content: center;
 
   .projects-content {
-    min-height: 100vh;
-    background-color: #030712;
+    width: 100%;
+    padding-top: 6rem;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
 
-    .projects-title {
-      margin-top: 6rem;
-      p {
-        font-size: 30px;
-        font-weight: 600;
-      }
+    .projects-wrapper {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, 400px);
+      justify-content: center;
+      gap: 34px;
+      width: 60%;
+      margin-bottom: 6rem;
+
+
     }
   }
 }

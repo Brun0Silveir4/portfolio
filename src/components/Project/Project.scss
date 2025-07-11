@@ -1,0 +1,35 @@
+.project {
+    width: 400px;
+    height: 350px;
+    background-color: #292C34;
+    border-radius: 12px;
+    padding: 14px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+
+    .image{
+      img{
+        width: 371px;
+        border-radius: 8px;
+         height: 195px;
+        object-fit: cover;
+       }
+    }
+
+    .texts{
+      display: flex;
+      gap: 13px;
+      flex-direction: column;
+
+      .titles{
+        display: flex;
+        justify-content: space-between;
+
+        .techs{
+            display: flex;
+            gap: 5px;
+        }
+      }
+    }
+  }
