@@ -5,7 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Project from "../../components/Project/Project";
 
-import teste from "../../../public/images/foto-formal.jpg";
+import Aphrodite from "../../../public/images/aphrodite.png";
 
 export default function Projects() {
   useEffect(() => {
@@ -14,10 +14,10 @@ export default function Projects() {
 
   const projectList = [
     {
-      title: 'To-do List',
-      description: 'Gerenciador de tarefas com autenticação.',
-      image: teste,
-      techs: ['react', 'firebase', 'tailwind'],
+      title: "Asset Aphrodite - IBM",
+      description: "Asset com interface replicável e adaptável ao cliente, com foco em exibir um chat criado no WatsonX Orchestrate.",
+      image: Aphrodite,
+      techs: ["react", "orchestrate", "carbon", 'sass'],
     }
   ];
 
@@ -26,17 +26,15 @@ export default function Projects() {
       <Header />
       <div className="projects-content">
         <div className="projects-wrapper">
-          {/* componentizar - inicio */}
           {projectList.map((project, index) => (
-        <Project
-          key={index}
-          title={project.title}
-          description={project.description}
-          image={project.image}
-          techs={project.techs}
-        />
-      ))}
-          {/* componentizar - fim */}
+            <Project
+              key={index}
+              title={project.title}
+              description={project.description}
+              image={project.image}
+              techs={project.techs}
+            />
+          ))}
         </div>
       </div>
     </div>

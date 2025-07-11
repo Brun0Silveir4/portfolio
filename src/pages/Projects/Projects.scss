@@ -14,13 +14,11 @@
 
     .projects-wrapper {
       display: grid;
-      grid-template-columns: repeat(auto-fit, 400px);
+      grid-template-columns: repeat(auto-fit, 480px);
       justify-content: center;
       gap: 34px;
-      width: 60%;
+      width: 90%;
       margin-bottom: 6rem;
-
-
     }
   }
 }
