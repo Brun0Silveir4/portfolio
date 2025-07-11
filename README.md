@@ -46,6 +46,8 @@ npm install
 npm run dev 
 ```
 
+Link da applicação no ar: https://portfolio-amber-one-45.vercel.app
+
 <br>
 
 ## 🙋‍♂️ Autor
