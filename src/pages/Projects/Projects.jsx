@@ -31,6 +31,42 @@ export default function Projects() {
       clicable: false,
       liveLink: '',
       repo: ''
+    },
+    {
+      title: "Asset Aphrodite - IBM",
+      description: "Asset com interface replicável e adaptável ao cliente, com foco em exibir um chat criado no WatsonX Orchestrate.",
+      image: Aphrodite,
+      techs: ["react", "orchestrate", "carbon", 'sass'],
+      clicable: false,
+      liveLink: '',
+      repo: ''
+    },
+    {
+      title: "Asset Aphrodite - IBM",
+      description: "Asset com interface replicável e adaptável ao cliente, com foco em exibir um chat criado no WatsonX Orchestrate.",
+      image: Aphrodite,
+      techs: ["react", "orchestrate", "carbon", 'sass'],
+      clicable: false,
+      liveLink: '',
+      repo: ''
+    },
+    {
+      title: "Asset Aphrodite - IBM",
+      description: "Asset com interface replicável e adaptável ao cliente, com foco em exibir um chat criado no WatsonX Orchestrate.",
+      image: Aphrodite,
+      techs: ["react", "orchestrate", "carbon", 'sass'],
+      clicable: false,
+      liveLink: '',
+      repo: ''
+    },
+    {
+      title: "Asset Aphrodite - IBM",
+      description: "Asset com interface replicável e adaptável ao cliente, com foco em exibir um chat criado no WatsonX Orchestrate.",
+      image: Aphrodite,
+      techs: ["react", "orchestrate", "carbon", 'sass'],
+      clicable: false,
+      liveLink: '',
+      repo: ''
     }
   ];
 
