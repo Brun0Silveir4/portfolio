@@ -1,7 +1,9 @@
+@import "../../Theme.scss";
+
 .contact-container {
   min-height: 100vh;
-  background-color: #111827;
-  color: white;
+  background-color: var(--bg2);
+  color: var(--textColor);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,7 +44,7 @@
           align-items: center;
           display: flex;
           text-decoration: none;
-          color: white;
+          color: var(--textColor);
         }
       }
       .media-links{
@@ -60,13 +62,13 @@
 
   
           &:hover {
-            background-color: #1f2937;
+            background-color: var(--hoverTechIcon);
           }
         }
   
         .git,
         .link {
-          color: #d1d5db;
+          color: var(--colorIcon);
           font-size: 34px;
         }
       }
@@ -74,7 +76,7 @@
     .form-wrapper {
       width: 600px;
       padding: 2rem;
-      background-color: #1f2937;
+      background-color: var(--bgForm);
       border-radius: 12px;
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
 
@@ -97,8 +99,8 @@
 
         button {
           padding: 1rem;
-          background-color: #111827;
-          color: white;
+          background-color: var(--btnContact);
+          color: var(--textColor);
           font-size: 18px;
           border: none;
           border-radius: 6px;
@@ -106,7 +108,7 @@
           transition: background-color 0.2s ease;
 
           &:hover {
-            background-color: #374151;
+            background-color: var(--btnContactHover);
           }
         }
       }

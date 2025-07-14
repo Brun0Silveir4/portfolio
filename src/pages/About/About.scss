@@ -1,10 +1,12 @@
+@import "../../Theme.scss";
+
 .about-container {
-  color: white;
+  color: var(--textColor);
   min-width: 100vw;
   min-height: 100vh;
 
   .experiences {
-    background-color: #111827;
+    background-color: var(--bg2);
     width: 100%;
     min-height: 100vh;
     display: flex;

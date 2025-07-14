@@ -1,8 +1,10 @@
+@import "../../Theme.scss";
+
 .projects-container {
   min-width: 100%;
   min-height: 100vh;
   color: white;
-  background-color: #030712;
+  background-color: var(--bg1);
   display: flex;
   justify-content: center;
 

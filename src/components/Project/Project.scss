@@ -1,7 +1,9 @@
+@import "../../Theme.scss";
+
 .project {
   width: 480px;
   min-height: 460px;
-  background-color: #292c34;
+  background-color: var(--bgProjectCard);
   border-radius: 12px;
   padding: 14px;
   display: flex;
@@ -11,7 +13,7 @@
   border: 2px solid transparent;
 
   &.hovered {
-    border: 2px solid #878EA1;
+    border: 2px solid var(--projectCardBorder);
   }
 
   .image {
@@ -27,6 +29,7 @@
     display: flex;
     flex-direction: column;
     gap: 13px;
+    color: var(--textColor);
 
     .titles {
       display: flex;
@@ -36,7 +39,6 @@
       .title {
         font-size: 1.2rem;
         font-weight: 600;
-        color: white;
       }
 
       .techs {
@@ -55,7 +57,7 @@
       a {
         height: 40px;
         width: 40px;
-        color: white;
+        color: var(--textColor);
         text-decoration: none;
         display: flex;
         justify-content: center;
@@ -65,8 +67,8 @@
         transition: 0.3s ease;
 
         &:hover {
-          background-color: #1f2937;
-          border: 1px solid #374151;
+          background-color: var(--hoverTechIcon);
+          border: 1px solid var(--borderLinkProjectHover);
         }
       }
     }

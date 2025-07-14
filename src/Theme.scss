@@ -1,0 +1,43 @@
+[data-theme="dark"]{
+    --bg1: #030712;
+    --bg2: #111827;
+    --textColor: #fff;
+    --reverseColor: #000;
+    --borderHeaderItem: #bec2c8;
+    --bgHeaderTransparent: rgba(3, 7, 18, 0.6);
+    --borderBottomHeaderTransparent: #071029;
+    --hoverTechIcon: #1f2937;
+    --btnContact: #111827;
+    --btnContactHover: #374151;
+    --bgForm: #1f2937;
+    --colorIcon: #d1d5db;
+    --bgDownloadCv: #f9fafb;
+    --bgDownloadCvHover: #d1d3d6;
+    --bgCardExp: #1f2937;
+    --cardExpHover: #334d6e;
+    --bgProjectCard: #292c34;
+    --projectCardBorder: #878EA1;
+    --borderLinkProjectHover: #374151;
+}
+
+[data-theme="light"]{
+    --bg1: #fff;
+    --bg2: #f3f4f6;
+    --textColor: #000;
+    --reverseColor: #fff;
+    --borderHeaderItem: #6b7280;
+    --bgHeaderTransparent: rgba(255, 255, 255, 0.6);
+    --borderBottomHeaderTransparent: #d1d5db;
+    --hoverTechIcon: #cbd5e1;
+    --btnContact: #d1d5db;
+    --btnContactHover: #9ca3af;
+    --bgForm: #f3f4f6;
+    --colorIcon: #111827;
+    --bgDownloadCv: #111827;
+    --bgDownloadCvHover: #9ca3af;
+    --bgCardExp: #d1d5db;
+    --cardExpHover: #6b7280;
+    --bgProjectCard: #e0e0e0;
+    --projectCardBorder: #6b7280;
+    --borderLinkProjectHover: #cbd5e1;
+}

@@ -1,7 +1,9 @@
+@import "../../../Theme.scss";
+
 .header {
   width: 100%;
   height: 68px;
-  background-color: #030712;
+  background-color: var(--bg1);
   position: fixed;
   top: 0;
   left: 0;
@@ -14,9 +16,9 @@
   padding-right: 1rem;
 
   &.transparent {
-    background-color: rgba(3, 7, 18, 0.6);
+    background-color: var(--bgHeaderTransparent);
     backdrop-filter: blur(10px);
-    border-bottom: 1px solid #071029;
+    border-bottom: 1px solid var(--borderBottomHeaderTransparent);
   }
 
   .header-items {
@@ -34,7 +36,7 @@
       padding-right: 24px;
       .link-css {
         text-decoration: none;
-        color: white;
+        color: var(--textColor);
       }
       p {
         font-size: 16px;
@@ -46,7 +48,7 @@
         &:after {
           display: block;
           content: "";
-          border-bottom: solid 1px #bec2c8;
+          border-bottom: solid 1px var(--borderHeaderItem);
           transform: scaleX(0);
           transition: transform 250ms ease-in-out;
           transform-origin: 0% 50%;
@@ -55,7 +57,7 @@
           transform: scaleX(1);
         }
         &:hover {
-          color: #bec2c8;
+          color: var(--borderHeaderItem);
         }
       }
       p.active {
@@ -76,7 +78,7 @@
       .icon {
         cursor: pointer;
         path {
-          stroke: #d1d5db;
+          stroke: var(--colorIcon);
           transition: 0.3s ease;
         }
         &:hover {
@@ -94,11 +96,12 @@
         font-size: 16px;
         line-height: 24px;
         border: 1px solid transparent;
-        background-color: #f9fafb;
+        background-color: var(--bgDownloadCv);
         transition: 0.3s ease;
+        color: var(--reverseColor);
 
         &:hover {
-          background-color: #d1d3d6;
+          background-color: var(--bgDownloadCvHover);
         }
       }
     }
