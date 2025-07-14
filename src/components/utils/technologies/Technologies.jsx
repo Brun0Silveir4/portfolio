@@ -4,7 +4,8 @@ import IbmCloudIcon from '../../../assets/ibm-cloud.svg';
 import codeEngine from "../../../assets/ibm-cloud--code-engine.svg";
 import DB2 from "../../../assets/ibm--db2.svg"
 import twillio from "../../../assets/twilio-icon.svg"
-import { useEffect } from "react";
+import { useEffect, useContext } from "react";
+import { ThemeContext } from "../../../Context/ThemeContext";
 import AOS from "aos";
 import 'aos/dist/aos.css'
 
@@ -13,6 +14,9 @@ export default function Technologies() {
   useEffect(() => {
     AOS.init();
   }, []);
+
+  const {theme} = useContext(ThemeContext)
+
   return (
     <div className="technologies">
       <div className="title" data-aos="fade-down" data-aos-duration="1000">
@@ -39,7 +43,7 @@ export default function Technologies() {
 
         <Tech url={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"} text={"Node.js"} doc={"https://nodejs.org/docs/latest/api/"}/>
 
-        <Tech url={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"} text={"Express"} style={{ filter: "invert(1)" }} doc={"https://expressjs.com/pt-br/"}/>
+        <Tech url={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"} text={"Express"} style={{ filter: theme == 'dark' ? "invert(1)" : "invert(0)"  }} doc={"https://expressjs.com/pt-br/"}/>
 
         <Tech url={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain.svg"} text={"Axios"} doc={"https://axios-http.com/ptbr/docs/intro"}/>
 
@@ -53,7 +57,7 @@ export default function Technologies() {
 
         <Tech url={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"} text={"PostgreSQL"} doc={"https://www.postgresql.org"}/>
 
-        <Tech url={DB2} text={"DB2"} style={{ filter: "invert(1)" }} doc={"https://www.ibm.com/support/pages/db2-database-product-documentation"}/>
+        <Tech url={DB2} text={"DB2"} style={{ filter: theme == 'dark' ? "invert(1)" : "invert(0)" }} doc={"https://www.ibm.com/support/pages/db2-database-product-documentation"}/>
 
         <Tech url={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"} text={"GIT"} doc={"https://git-scm.com/doc"}/>
 
@@ -61,7 +65,7 @@ export default function Technologies() {
 
         <Tech url={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"} text={"Postman"} doc={"https://www.postman.com"}/>
         
-        <Tech url={codeEngine} text={"Code Engine"} style={{ filter: "invert(1)" }} doc={"https://www.ibm.com/br-pt/products/code-engine"}/>
+        <Tech url={codeEngine} text={"Code Engine"} style={{ filter: theme == 'dark' ? "invert(1)" : "invert(0)"  }} doc={"https://www.ibm.com/br-pt/products/code-engine"}/>
 
         <Tech url={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg"} text={"Swagger"} doc={"https://swagger.io"}/>
 
@@ -69,7 +73,7 @@ export default function Technologies() {
 
         <Tech url={twillio} text={"Twilio"} doc={"https://www.twilio.com/pt-br"}/>
 
-        <Tech url={IbmCloudIcon} text={"IBM cloud"} style={{ filter: "invert(1)" }} doc={"https://cloud.ibm.com/docs"}/>
+        <Tech url={IbmCloudIcon} text={"IBM cloud"} style={{ filter: theme == 'dark' ? "invert(1)" : "invert(0)"  }} doc={"https://cloud.ibm.com/docs"}/>
 
       </div>
     </div>
