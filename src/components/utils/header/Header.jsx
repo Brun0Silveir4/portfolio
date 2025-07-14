@@ -1,11 +1,14 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
+import { ThemeContext } from "../../../Context/ThemeContext";
 import "./Header.scss";
-import { LuMoon } from "react-icons/lu";
+import { LuMoon, LuSun } from "react-icons/lu";
 import CV from "../../../../public/docs/CV-Bruno-Silveira-Dionisio.pdf";
 import { Link, useLocation } from "react-router-dom";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
+
+  const { theme, toggleTheme } = useContext(ThemeContext);
 
   const location = useLocation();
   const pathname = location.pathname;
@@ -50,7 +53,12 @@ export default function Header() {
           </Link>
         </div>
         <div className="btn-group">
-          <LuMoon size={24} className="icon" />
+          {theme == 'dark' ? (
+
+            <LuSun size={24} className="icon" onClick={toggleTheme}/>
+          ) : (
+            <LuMoon size={24} className="icon" onClick={toggleTheme}/>
+          )}
           <button onClick={onButtonClick}>Download CV</button>
         </div>
       </div>
