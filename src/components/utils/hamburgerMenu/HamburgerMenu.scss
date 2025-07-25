@@ -10,6 +10,18 @@
   z-index: 999;
   display: flex;
   justify-content: end;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+
+  &.fade-in {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  &.fade-out {
+    opacity: 0;
+    pointer-events: none;
+  }
 
   .side-menu {
     transition: all 0.3s ease;
@@ -19,8 +31,17 @@
     padding: 32px;
     display: flex;
     flex-direction: column;
-    // justify-content: space-between;
     position: relative;
+    transform: translateX(0);
+    transition: transform 0.3s ease;
+
+    .wrapper-side-menu.fade-in & {
+      transform: translateX(0);
+    }
+
+    .wrapper-side-menu.fade-out & {
+      transform: translateX(100%);
+    }
   }
 
   .navigate {
@@ -73,7 +94,6 @@
   .btn-group {
     display: flex;
     flex-direction: column;
-    // align-items: center;
     gap: 16px;
     border-top: 2px solid var(--borderBottomHeaderTransparent);
     margin-top: 2rem;
