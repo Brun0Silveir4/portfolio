@@ -1,0 +1,44 @@
+@media (max-width: 900px) {
+  .intro {
+    padding: 5.5rem 0rem;
+
+    .intro-content {
+      flex-direction: column-reverse;
+      align-items: center;
+      gap: 24px;
+      justify-content: center;
+      .text-content {
+        width: 100%;
+        align-items: center;
+        gap: 30px;
+        text-align: center;
+        display: flex;
+        padding-left: 0px;
+      }
+
+      .image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 460px) {
+  .intro .intro-content .text-content .name-bio .title p {
+    font-size: 40px;
+  }
+
+  .intro .intro-content {
+    .image {
+      width: 280px;
+      height: 300px;
+
+      .main-photo {
+        width: 260px;
+        height: 280px;
+      }
+    }
+  }
+}
