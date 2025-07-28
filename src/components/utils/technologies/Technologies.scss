@@ -13,11 +13,11 @@
   }
 
   .tech-group {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    justify-content: center;
     gap: 16px;
     width: 70%;
-    margin-top: 48px;
-    margin-bottom: 6rem;
+    margin: 48px auto 6rem auto;
   }
 }
