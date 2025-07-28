@@ -1,0 +1,18 @@
+@media (max-width: 830px) {
+  .about-container .experiences .card-exp-group {
+    grid-template-columns: 1fr;
+    width: 60%; // quebra pra 1 coluna
+  }
+}
+
+@media (max-width: 630px) {
+  .about-container .experiences .card-exp-group {
+    width: 80%; // quebra pra 1 coluna
+  }
+}
+
+@media (max-width: 390px) {
+  .about-container .experiences .card-exp-group {
+    width: 90%; // quebra pra 1 coluna
+  }
+}

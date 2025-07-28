@@ -1,0 +1,27 @@
+@media (max-width: 640px) {
+    .contact-container .contact-content .form-wrapper {
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-container .contact-content .contact-media {
+        .media-title {
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 380px) {
+    .contact-container .contact-content .contact-media {
+        .email {
+            a {
+                font-size: 16px;
+            }
+        }
+
+        .media-title p {
+            font-size: 16px;
+        }
+    }
+}

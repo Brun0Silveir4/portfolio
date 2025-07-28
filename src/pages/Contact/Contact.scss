@@ -7,7 +7,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  // justify-content: center;
 
   .contact-content {
     width: 100%;
@@ -26,29 +25,33 @@
     }
 
     .contact-media {
-      
+
       display: flex;
       flex-direction: column;
       gap: 0.8rem;
       align-items: center;
       justify-content: center;
       margin-bottom: 6rem;
-      .media-title p{
+
+      .media-title p {
         font-size: 20px;
       }
 
-      .email{
-        a{
+      .email {
+        a {
           font-size: 19px;
           gap: 10px;
           align-items: center;
           display: flex;
           text-decoration: none;
           color: var(--textColor);
+          font-weight: 600;
         }
       }
-      .media-links{
+
+      .media-links {
         display: flex;
+
         a {
           text-decoration: none;
           height: 56px;
@@ -60,12 +63,12 @@
           border-radius: 8px;
           transition: 0.2s ease;
 
-  
+
           &:hover {
             background-color: var(--hoverTechIcon);
           }
         }
-  
+
         .git,
         .link {
           color: var(--colorIcon);
@@ -73,6 +76,7 @@
         }
       }
     }
+
     .form-wrapper {
       width: 600px;
       padding: 2rem;
@@ -115,3 +119,5 @@
     }
   }
 }
+
+@import './Contact-mobile.scss'

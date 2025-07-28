@@ -26,7 +26,7 @@
   .side-menu {
     transition: all 0.3s ease;
     height: 100%;
-    width: 40vw;
+    width: 70%;
     background-color: var(--bg1);
     padding: 32px;
     display: flex;
@@ -140,3 +140,5 @@
     color: var(--textColor);
   }
 }
+
+@import './HamburgerMenu-mobile.scss'

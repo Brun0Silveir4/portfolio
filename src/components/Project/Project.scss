@@ -1,7 +1,7 @@
 @import "../../Theme.scss";
 
 .project {
-  width: 480px;
+  max-width: 480px;
   min-height: 460px;
   background-color: var(--bgProjectCard);
   border-radius: 12px;

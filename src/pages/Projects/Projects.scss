@@ -15,13 +15,16 @@
     justify-content: center;
 
     .projects-wrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 480px);
-  justify-content: center;
-  align-items: start;
-  gap: 34px;
-  width: 90%;
-  margin-bottom: 6rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 480px));
+      gap: 34px;
+      justify-content: center;
+      align-items: start;
+      width: 90%;
+      margin-bottom: 6rem;
     }
+
   }
 }
+
+@import './Projects-mobile.scss'

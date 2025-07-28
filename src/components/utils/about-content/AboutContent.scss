@@ -5,7 +5,7 @@
   background-color: var(--bg1);
   display: flex;
   justify-content: center;
-  
+
   .main-content-about {
     padding-top: 10rem;
     display: flex;
@@ -13,7 +13,7 @@
     height: 100%;
 
     .image {
-      width: 50vw;
+      min-width: 50vw;
       display: flex;
       justify-content: flex-end;
       padding-right: 4rem;
@@ -50,3 +50,5 @@
     }
   }
 }
+
+@import './AboutContent-mobile.scss'
