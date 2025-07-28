@@ -26,7 +26,7 @@ export default function TextHome() {
             <p>
               Sou desenvolvedor web full stack, com foco em React e Node.js.
               Formado em Análise e Desenvolvimento de Sistemas pela Fatec Zona
-              Leste, atuo na criação de aplicações modernas, do front ao
+              Leste e com experiência na IBM, atuo na criação de aplicações modernas, do front ao
               back-end.
             </p>
           </div>
