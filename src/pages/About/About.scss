@@ -23,7 +23,7 @@
 
     .card-exp-group {
       margin-top: 48px;
-      width: 60%;
+      min-width: 60%;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 2.5rem;
