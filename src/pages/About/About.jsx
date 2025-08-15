@@ -43,7 +43,7 @@ export default function About() {
           <CardExp
             image={logoIBM}
             company={"IBM"}
-            time={"2023–atual"}
+            time={"2023-2025"}
             onClick={() => goTo("ibm")}
           />
           <CardExp
