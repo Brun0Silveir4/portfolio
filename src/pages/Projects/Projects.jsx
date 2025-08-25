@@ -8,6 +8,7 @@ import Project from "../../components/Project/Project";
 import Aphrodite from "../../../public/images/aphrodite.png";
 import realState from "../../../public/images/real-state-page.png"
 import tipCalculator from "../../../public/images/tipCalculator.png"
+import RestCountries from "../../../public/images/rest-countries.png"
 
 export default function Projects() {
   useEffect(() => {
@@ -15,6 +16,15 @@ export default function Projects() {
   }, []);
 
   const projectList = [
+    {
+      title: "Rest Countries API",
+      description: "Projecto para praticar o consumo de APIs REST, foco na exibição dos países da rest countries api e seus detalhes.",
+      image: RestCountries,
+      techs: ["react", "sass", "postman"],
+      clicable: true,
+      liveLink: 'https://rest-countries-api-seven-lime.vercel.app',
+      repo: 'https://github.com/Brun0Silveir4/rest-countries-api'
+    },
     {
       title: "Tip Calculator",
       description: "Página simples e intuitiva com o objetivo de ser uma calculadora de gorjeta baseada na quantidade de pessoas.",
