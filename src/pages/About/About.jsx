@@ -4,6 +4,7 @@ import "./About.scss";
 import logoIBM from "../../../public/images/ibm-logo-svgrepo-com.svg";
 import logoETEC from "../../../public/images/etec-favicon.svg";
 import logoFATEC from "../../../public/images/FATEC_ZONA_LESTE2.png";
+import logoJustisecure from "../../../public/images/logo-justisecure.png"
 
 import AboutContent from "../../components/utils/about-content/AboutContent";
 import CardExp from "../../components/card-exp/Card-exp";
@@ -40,6 +41,13 @@ export default function About() {
           data-aos="fade-right"
           data-aos-duration="1200"
         >
+          <CardExp
+            image={logoJustisecure}
+            company={"Justisecure"}
+            time={"2025-Atual"}
+            onClick={() => goTo("justisecure")}
+          />
+
           <CardExp
             image={logoIBM}
             company={"IBM"}
