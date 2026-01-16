@@ -43,6 +43,8 @@ export default function Technologies() {
 
         <Tech url={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"} text={"Python"} doc={"https://docs.python.org/3/"}/>
 
+        <Tech url={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"} text={"Php"} doc={"https://www.php.net/docs.php"}/>
+
         <Tech url={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"} text={"Laravel"} doc={"https://laravel.com/"}/>
 
         <Tech url={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"} text={"Node.js"} doc={"https://nodejs.org/docs/latest/api/"}/>
