@@ -1,7 +1,7 @@
 import "./HamburgerMenu.scss";
 import { LuMoon, LuSun } from "react-icons/lu";
 import { Link, useLocation } from "react-router-dom";
-import CV from "../../../../public/docs/CV-Bruno-Silveira-Dionisio.pdf";
+import CV from "../../../../public/docs/CV-Bruno-Silveira-Dionisio-Eng.pdf";
 import { useContext, useEffect, useState } from "react";
 import { ThemeContext } from "../../../Context/ThemeContext";
 import { IoMdClose } from "react-icons/io";
