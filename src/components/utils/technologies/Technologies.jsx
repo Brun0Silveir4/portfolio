@@ -41,6 +41,10 @@ export default function Technologies() {
         
         <Tech url={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg"} text={"Sass/Scss"} doc={"https://sass-lang.com"}/>
 
+        <Tech url={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"} text={"Python"} doc={"https://docs.python.org/3/"}/>
+
+        <Tech url={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"} text={"Laravel"} doc={"https://laravel.com/"}/>
+
         <Tech url={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"} text={"Node.js"} doc={"https://nodejs.org/docs/latest/api/"}/>
 
         <Tech url={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"} text={"Express"} style={{ filter: theme == 'dark' ? "invert(1)" : "invert(0)"  }} doc={"https://expressjs.com/pt-br/"}/>
