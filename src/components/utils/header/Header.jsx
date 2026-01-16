@@ -2,7 +2,7 @@ import { useState, useEffect, useContext } from "react";
 import { ThemeContext } from "../../../Context/ThemeContext";
 import "./Header.scss";
 import { LuMoon, LuSun } from "react-icons/lu";
-import CV from "../../../../public/docs/CV-Bruno-Silveira-Dionisio.pdf";
+import CV from "../../../../public/docs//CV-Bruno-Silveira-Dionisio-Eng.pdf";
 import { Link, useLocation } from "react-router-dom";
 import { useWindowDimension } from "../../../hooks/useWindowDimension";
 import HamburgerMenu from "../hamburgerMenu/HamburgerMenu";
