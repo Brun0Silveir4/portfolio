@@ -9,6 +9,7 @@ import Aphrodite from "../../../public/images/aphrodite.png";
 import realState from "../../../public/images/real-state-page.png"
 import tipCalculator from "../../../public/images/tipCalculator.png"
 import RestCountries from "../../../public/images/rest-countries.png"
+import EcommerceAPI from "../../../public/images/E-commerce-api.png"
 
 export default function Projects() {
   useEffect(() => {
@@ -16,6 +17,15 @@ export default function Projects() {
   }, []);
 
   const projectList = [
+    {
+      title: "E-commerce API",
+      description: "Projecto para praticar o consumo de APIs REST, foco na exibição dos países da rest countries api e seus detalhes.",
+      image: EcommerceAPI,
+      techs: ["node", "postgres", "docker"],
+      clicable: true,
+      liveLink: 'https://app.swaggerhub.com/apis/BRUNOSILVEIRADIONISI/E-COMMERCE-API/1.0#/Auth/post_api_auth_register',
+      repo: 'https://github.com/Brun0Silveir4/e-commerce-api'
+    },
     {
       title: "Rest Countries API",
       description: "Projecto para praticar o consumo de APIs REST, foco na exibição dos países da rest countries api e seus detalhes.",
