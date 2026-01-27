@@ -19,7 +19,7 @@ export default function Projects() {
   const projectList = [
     {
       title: "E-commerce API",
-      description: "Projecto para praticar o consumo de APIs REST, foco na exibição dos países da rest countries api e seus detalhes.",
+      description: "Projeto para estudar nodejs + express junto com banco de dados. Implementado autenticação e autorização nas rotas.",
       image: EcommerceAPI,
       techs: ["node", "postgres", "docker"],
       clicable: true,
